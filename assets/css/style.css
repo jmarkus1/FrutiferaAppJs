@@ -1,0 +1,70 @@
+#carouselExampleIndicators.carousel {
+    height: 500px;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-item,
+#carouselExampleIndicators .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+    bottom: 20px;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #ffffff !important;
+    opacity: 0.7;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next-icon {
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+}
+
+.card {
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.container {
+    max-width: 1200px;
+}
